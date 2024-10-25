@@ -1,0 +1,284 @@
+:root {
+    --rosa: #e6757a; 
+    --gris-oxford: #3a3a3a;
+    --azul-: #504F61;
+    --fondo-rosado-suave: #ffd3d3;
+    --blanco: #e6e7e8;
+    --fucsia: #7e0642;
+    --rojo: rgb(179, 43, 43);
+
+
+     
+}
+body{
+    font-family: 'Georgia', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    
+}
+h2{
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+}
+.tabla-codigo {
+    width: 100%; /* Tamaño para la tabla */
+    margin-left: 0; /* Alinea la tabla a la izquierda */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: var(--fondo-rosado-suave);
+
+}
+
+table {
+    width: 40%; /* Para que la tabla ocupe todo el ancho del div */
+    border-collapse: collapse; /* Quita los espacios entre bordes */
+   
+}
+
+td {
+    border: 1px solid var(--gris-oxford); /* Color del borde */
+    padding: 0px; /* Espaciado interno */
+    font-size: 11px; /* Texto de tamaño pequeño */
+    text-align: left; /* Alineación a la izquierda */
+    background-color: var(--fondo-rosado-suave); /* Fondo blanco para las celdas */
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color:var(--rosa);
+    padding: 20px;
+    color: var(--gris-oxford);
+    font-size: 0.8rem;
+
+}
+
+.logo{
+    flex: 0 0 auto; /* Mantiene el logo en su tamaño original */
+    
+}
+
+.logo img{
+    width: 130px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;  
+}
+
+.Titulo{
+    flex: 1; /* Toma el espacio restante */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    min-width: 200px; /* Asegura que el título tenga un ancho mínimo */
+}
+
+.contacto{
+    background-color: #333333;
+    display: flex;
+    color: #e6e7e8;
+    padding: 2px;
+    
+}
+.contacto p{
+    padding: 0px;
+    margin: 0px;  
+
+}
+
+
+/* Secciones de la Guía */
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--gris-oxford);
+   
+}
+.descripcion {
+    background-color: var(--azul-);
+    color: var(--blanco);
+    text-align: justify;
+
+
+}
+
+.componentes{
+    background-color: var(--fondo-rosado-suave);
+    text-align: justify;
+}
+.funcionamiento{
+    background-color: var(--gris-oxford);
+    color: var(--blanco);
+    border: 7px double beige; 
+    text-align: justify;
+ }
+.limpieza{
+    background-color: var(--rosa);
+    border: 7px  rgba(255, 243, 228, 0.959); /* Borde doble para destacar */
+    color: var(--blanco)
+ }
+ .limpieza h1{
+    color: var(--rojo);
+ }
+ .fallas{
+    background-color: var(--azul-);
+    border: 7px double rgba(255, 243, 228, 0.959); /* Borde doble para destacar */
+    color: beige
+ }
+ .notas{
+    margin: 20px;
+    border: 2px double var(--gris-oxford); /* Borde simple */
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(245, 245, 89);
+    color: var(--gris-oxford);
+ }
+ .notas h3{
+    text-align: center;
+    color: black;
+ }
+ .advertencia{
+    margin: 20px;
+    border: 2px double var(--gris-oxford); /* Borde simple */
+    padding: 15px;
+    border-radius: 30px;
+    background-color:var(--rojo);
+    color: var(--blanco);
+    
+
+}
+.advertencia h3{
+    text-align: center;
+    color: yellow;
+ }
+/*Estilos de Cuadro de Texto y Tablas*/
+/*Tabla formato nx2*/
+ .tabla-nx2 {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    background-color: beige;
+    text-align: justify;
+    color: var(--gris-oxford);
+    margin: 10px;
+}
+.tabla-nx2 th, .tabla-nx2 td {
+    border: 1px solid black; /* Bordes para las celdas */
+    text-align: left; /* Alineación del texto en las celdas */
+    padding: 8px; /* Espaciado interno de las celdas */
+    background-color: beige;
+}
+
+
+
+ .cuadro-gris{
+    border: 2px double var(--gris-oxford); /* Borde simple */
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--gris-oxford);
+    color: var(--blanco);
+    text-align: justify;
+ }
+
+ .cuadro-beige{
+    border: 2px double var(--gris-oxford); 
+    padding: 15px;
+    border-radius: 30px;
+    background-color: beige;
+    color: var(--gris-oxford);
+    text-align: justify;
+ }
+ .cuadro-rosado
+ {
+    border: 2px double var(--gris-oxford); 
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--fondo-rosado-suave);
+    color: var(--gris-oxford);
+ }
+
+ .cuadro-azul{
+    border: 2px double var(--azul-); 
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--azul-);
+    color: var(--blanco);
+    margin: 10px;
+    text-align: justify;
+ }
+ .cuadro-rosa{
+    border: 3px double var(--gris-oxford); 
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--rosa);
+    color: var(--blanco);
+    margin: 10px;
+
+ }
+
+/*Tamaños de imagen*/
+.img-med{
+    max-width: 70%;
+    height: auto;
+    border-radius: 7px;
+ }
+ /* Imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.img-ch{
+    max-width: 15%;
+    height: auto;
+    margin-top: .25cm;
+    border-radius: 0px;
+    
+
+}
+
+ /*Pie de página*/
+ footer {
+    text-align: center;
+    background-color: var(--gris-oxford);
+    color: var(--blanco);
+    padding: 10px;
+}
+
+/* Adaptación a la pantalla de escritorio
+Cuando una pantalla sea más ancha que 8.2 cm entonces entra en el modo escritorio
+*/
+@media (min-width: 8cm) {
+    img {
+        width: 75%;
+    }
+
+    header {
+        flex-direction: row; /* Mantiene la dirección en fila */
+        padding: 15px;
+    }
+
+    header title {
+        margin: 0 auto; /* Centra el título cuando la pantalla es pequeña */
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 14px;
+    }
+    .contacto{
+        
+        color: var(--blanco);
+        background-color: #3a3a3a;
+        padding: 10px;
+        
+    }
+}
